@@ -1,9 +1,9 @@
 class N2nNexusHost < Formula
   desc "Host of n2n-nexus: lets Claude Code, Codex and pi conversations find and message each other"
   homepage "https://github.com/n2ns/n2n-nexus"
-  url "https://github.com/n2ns/n2n-nexus/archive/refs/tags/host-v0.13.4.tar.gz"
-  version "0.13.4"
-  sha256 "5262ddf35489c94bbd27b40885dd12c53f4ce32b52c0bcd995e47634b6820e25"
+  url "https://github.com/n2ns/n2n-nexus/archive/refs/tags/host-v0.14.0.tar.gz"
+  version "0.14.0"
+  sha256 "b6f8834b2fa1505bc8bae88ad5affbeb530ca41a51ca1ff0604520124fce0678"
   license "Apache-2.0"
 
   depends_on "go" => :build
